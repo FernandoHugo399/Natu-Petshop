@@ -44,3 +44,48 @@ html,body{
 }
 
 /**********/
+
+
+
+/* Media queries */
+@media screen and (max-width:1100px){
+    .orange{
+        width: 62%;
+        font-size: 24px;
+    }
+    
+    .gray{
+        width: 38%;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:860px){
+    .flex-chamada{
+        flex-direction: column;
+    
+    }
+
+    .orange{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .gray{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:520px){
+    .orange{
+        font-size: 20px;
+    }
+    
+    .gray{
+        font-size: 20px;
+    }
+}
+
+/**********/
