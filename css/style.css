@@ -91,11 +91,12 @@ html,body{
 }
 
 .menu-mobile ul {
-    display: none; 
+    display: none;
     position: absolute;
     width: 100%;
     background-color: rgb(253, 252, 252);
-    top: 175px;
+    top: 125px;
+    padding: 0;
     text-align: center;
     left: 0;
     border-bottom: 2px solid #ccc;
@@ -116,9 +117,26 @@ html,body{
 
 
 /* Media queries */
-@media screen and (max-width:1180px){
-    .menu-desktop ul li:last-of-type{
+@media screen and (max-width:1200px){
+    .flex-logo-menu{
+        background-color: rgb(253, 252, 252);
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px 5%;
+    }
+    .logo{
+        width: 100%;
+        text-align: unset;
+    }
+
+    .menu-desktop{
         display: none;
+    }
+
+
+    .menu-mobile{
+        display: inline-block;
     }
 }
 
@@ -152,25 +170,8 @@ html,body{
         text-align: center;   
     }
 
-    .flex-logo-menu{
-        background-color: rgb(253, 252, 252);
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        padding: 10px 5%;
-    }
-    .logo{
-        width: 100%;
-        text-align: unset;
-    }
-
-    .menu-desktop{
-        display: none;
-    }
-
-
-    .menu-mobile{
-        display: inline-block;
+    .menu-mobile ul{
+        top: 175px;
     }
 
 }
@@ -187,6 +188,16 @@ html,body{
     
     .gray{
         font-size: 20px;
+    }
+
+    .menu-mobile ul{
+        top: 165px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .menu-mobile ul{
+        top: 190px;
     }
 }
 
