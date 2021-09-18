@@ -49,6 +49,7 @@ html,body{
     justify-content: space-between;
     align-items: center; 
     padding: 10px 1%;
+    border-bottom: 2px solid #ccc;
 }
 
 .logo{
@@ -65,16 +66,50 @@ html,body{
 .menu-desktop ul li{
     display: inline-block;
     padding: 0 12px;
-    font-size: 25px;
+    
 }
 
 .menu-desktop ul li a{
     text-decoration: none;
     color: #0B87BA;
+    font-size: 25px;
 }
 
 .menu-mobile{
     display: none;
+}
+
+.menu-mobile{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/icon_menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+}
+
+.menu-mobile ul {
+    display: none; 
+    position: absolute;
+    width: 100%;
+    background-color: rgb(253, 252, 252);
+    top: 175px;
+    text-align: center;
+    left: 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-mobile ul li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.menu-mobile ul li a {
+    text-decoration: none;
+    color: #0B87BA;
+    font-size: 25px;
 }
 /**********/
 
@@ -99,9 +134,6 @@ html,body{
         font-size: 24px;
     }
 
-   /*  .menu ul li:nth-of-type(4){
-        display: none;
-    } */
 }
 
 @media screen and (max-width:860px){
@@ -121,14 +153,24 @@ html,body{
     }
 
     .flex-logo-menu{
-    background-color: rgb(253, 252, 252);
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center; 
-}
+        background-color: rgb(253, 252, 252);
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px 5%;
+    }
+    .logo{
+        width: 100%;
+        text-align: unset;
+    }
+
     .menu-desktop{
         display: none;
+    }
+
+
+    .menu-mobile{
+        display: inline-block;
     }
 
 }
