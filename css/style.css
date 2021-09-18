@@ -4,8 +4,43 @@
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html,body{
     height: 100%;
 }
+
+.center{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.flex-chamada{
+    display: flex;
+
+}
+
+.orange{
+    width: 60%;
+    background-color: #FE8C0F;
+    text-align: right;
+    padding: 10px 2%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 26px;
+}
+
+.gray{
+    width: 40%;
+    background-color: #EAEFF1;
+    padding: 10px 2%;
+    text-transform: uppercase;
+    color: #0B87BA;
+    font-size: 26px;
+}
+
+/**********/
