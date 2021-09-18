@@ -21,7 +21,6 @@ html,body{
 
 .flex-chamada{
     display: flex;
-
 }
 
 .orange{
@@ -49,13 +48,13 @@ html,body{
     width: 100%;
     justify-content: space-between;
     align-items: center; 
-    
+    padding: 10px 1%;
 }
 
 .logo{
     color: #FE8C0F;
-    font-size: 44px;
-
+    font-size: 38px;
+    
 }
 
 .logo::after{
@@ -63,19 +62,32 @@ html,body{
     color: #0B87BA;
 }
 
-.menu ul li{
+.menu-desktop ul li{
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 12px;
+    font-size: 25px;
 }
 
-.menu ul li a{
+.menu-desktop ul li a{
     text-decoration: none;
+    color: #0B87BA;
+}
+
+.menu-mobile{
+    display: none;
 }
 /**********/
 
 
 
 /* Media queries */
+@media screen and (max-width:1180px){
+    .menu-desktop ul li:last-of-type{
+        display: none;
+    }
+}
+
+
 @media screen and (max-width:1100px){
     .orange{
         width: 62%;
@@ -86,6 +98,10 @@ html,body{
         width: 38%;
         font-size: 24px;
     }
+
+   /*  .menu ul li:nth-of-type(4){
+        display: none;
+    } */
 }
 
 @media screen and (max-width:860px){
@@ -102,6 +118,17 @@ html,body{
     .gray{
         width: 100%;
         text-align: center;   
+    }
+
+    .flex-logo-menu{
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+    .menu-desktop{
+        display: none;
     }
 
 }
