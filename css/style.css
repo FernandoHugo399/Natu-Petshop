@@ -43,6 +43,34 @@ html,body{
     font-size: 26px;
 }
 
+.flex-logo-menu{
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.logo{
+    color: #FE8C0F;
+    font-size: 44px;
+
+}
+
+.logo::after{
+    content: 'PetShop';
+    color: #0B87BA;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
 /**********/
 
 
@@ -73,12 +101,17 @@ html,body{
     
     .gray{
         width: 100%;
-        text-align: center;
+        text-align: center;   
     }
+
+}
+
+@media screen and (max-width:768px){
+    
 }
 
 
-@media screen and (max-width:520px){
+@media screen and (max-width:580px){
     .orange{
         font-size: 20px;
     }

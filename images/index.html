@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/stilo.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <script src="../javas/script.js" defer></script>
+    <title>Natu PetShop</title>
+</head>
+<body>
+    <!-- LOGO DO SITE -->
+    <div id="img1"><img src="../images/natu.png" alt="natu PetShop" width="100%">
+        <div id="prin">PetShop</div>
+    </div>
+    <!--------------------------------------------------------->
+
+
+
+
+
+<!-- MENU PRINCIPAL -->
+<div id="menu">
+    <ul>
+        <li><a href="../paginas/__contate-nos/Contate-nos.html"> Fotografia</a></li>
+
+        <li><a href="../paginas/_cachorro/cachorros.html"> Cachorro</a>
+             <ul>
+                 <li><a href="../paginas/Cachorro_Ração/cachorro_racao.html">Ração</a></li>
+                 <li><a href="../paginas/Cachorro_Petiscos e ossos/Petisco e osso.html">Petiscos e Ossos</a></li>
+                 <li><a href="../paginas/Cachorro_Antipulgas/Antipulgas.html">Antipulgas</a></li>   
+                 <li><a href="../paginas/Cachorro_Coleira/Coleira.html">Coleiras p/ cães</a></li>  
+                 <li><a href="../paginas/Cachorros_Brinquedos/B.html">Brinquedos</a></li>
+                 <li><a href="../paginas/Cachorro_Camas/C.html">Camas p/ cães</a></li>
+                               
+             </ul>
+
+         </li>
+
+        <li><a href="../paginas/_gato/gatos.html"> Gato</a>
+         <ul>
+             <li><a href="../paginas/gato_racao/gato_racao.html">Ração</a></li>
+             <li><a href="../paginas/gato_saches.latas/gato_saches.lata.html">Sachês e latas</a></li>
+             <li><a href="../paginas/gato_antipulgas/gato_antipulgas.html">Antipulgas</a></li>   
+             <li><a href="../paginas/gato_coleiras/gato_coleiras.html">Coleiras </a></li>  
+             <li><a href="../paginas/gato_brinquedo/gato_brinquedo.html">Brinquedos</a></li>
+             <li><a href="../paginas/gato_camas/gato_camas.html">Camas p/ Gato</a></li>
+                           
+         </ul> 
+         </li>
+
+
+        <li><a href="../paginas/_banho/k.html"> Banho & Tosa</a>
+         <ul>
+             <li><a href="../paginas/banho_shampoo/banho_shampoo.html">Shampoos e condicionadores</a></li>
+             <li><a href="../paginas/banho_sabonete/banho_sabonete.html">Sabonetes e Perfumes</a></li>
+             <li><a href="../paginas/banho_reparador/banho_reparador.html">Reparador de Pelos</a></li>
+             <li><a href="../paginas/banho_lenços/u.html">Lenços umedecidos</a></li>
+         </ul>
+         </li>
+
+
+        <li><a href="../paginas/_passaros/i.html"> Pássaros</a>
+         <ul>
+             <li><a href="../paginas/Passaros_gaiolas/G.html">Gaiolas e Viveiros</a></li>
+             <li><a href="../paginas/Passaros_brinquedos/B.html">Brinquedos</a></li>
+             <li><a href="../paginas/passaros_higiene/H.html">Higiene</a></li>
+         </ul>
+         </li>
+
+         <li><a href="../paginas/_medicamentos/M.html"> Medicamentos</a>
+            <ul>
+                <li><a href="../paginas/medicamentos_suplementos/S.html">Suplementos</a></li>
+                <li><a href="../paginas/medicamentos_antiemeticos/A.html">Antieméticos</a></li>
+                <li><a href="../paginas/medicamentos_antibiotivos/a.html">Antibióticos</a></li>
+            </ul>
+        </li> 
+    </ul>
+ </div>
+
+ <!--------------------------------------------------------->
+ <!--------------------------------------------------------->
+ <!--------------------------------------------------------->
+
+
+ 
+<!-- IMAGEM PRINCIPAL -->
+<div class="carrossel">
+    <div class="container" id="img">
+        <img src="../images/1.png" width="90%" height="100%">
+        <img src="../images/2.png" width="90%" height="100%">
+    </div>
+    <div id="emb"></div>
+</div>
+
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+
+
+
+
+
+
+
+<!-- CONTATO DE BAIXO DA IMAGEM -->
+<div id="nomez">
+    <div>Para dúvidas, contate-nos
+<ul>
+    <li>
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558198845-7189" target="_blank">
+            <img src="../images/WhatsApppb.png"/>
+            <img src="../images/WhatsApp.png"/>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.instagram.com/natupet_shop/" target="_blank">
+            <img src="../images/instagrampb.png"/>
+            <img src="../images/instagram.png"/>
+        </a>
+    </li>
+    <li>
+        <a href="https://t.me/joinchat/8-dQsrNYzuU4YTVh" target="_blank">
+            <img src="../images/telegrampb.png"/>
+            <img src="../images/telegram.png"/>
+        </a>
+    </li>
+</ul>
+</div>
+</div>
+
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+
+
+
+
+
+
+
+    <!-- CONTEÚDO QUE IRÁ SER COLOCADO -->
+    <div class="conteudo">
+        <h2 id="des">DESTAQUE</h2>
+        <hr class="hrb">
+        <hr class="hrb">
+        <div id="produto1">
+            <a href="../paginas/Cachorro_Ração/cachorro_racao_produtos/produto1.html"><img src="https://staticpetz.stoom.com.br/fotos/1620246460676.jpg" alt="ração">
+            <p>Ração Pedigree Nutri Essencial para <br> Cães Adultos - 15kg</p>
+            <h3>R$ 129,99</h3></a>
+        </div>
+        <div id="produto2">
+            <a href="../paginas/gato_saches.latas/gato_saches.latas_produtos/produto3.html"><img src="https://staticpetz.stoom.com.br/fotos/20003300000023-1.jpg" alt="lata">
+            <p>Ração Úmida Whiskas Lata para Gatos Adultos <br> Sabor Atum ao Molho - 290g</p>
+            <h3>R$ 8,99</h3></a>
+        </div>
+        <div id="produto3">
+            <a href="../paginas/medicamentos_suplementos/Medicamentos_Suplementos_Produtor/Produto1.html"><img src=" https://www.petlove.com.br/images/products/221088/large/Suplemento_Vitam%C3%ADnico_Avert_Hemolipet_para_C%C3%A3es_e_Gatos_-_60_mL_2481899.jpg?1583498090" alt="suplemento">
+            <p>Suplemento Vitamínico Avert Hemolipet para <br> Cães e Gatos - 30 mL</p>
+            <h3>R$ 34,14</h3></a>
+        </div>
+        <hr>
+        <div id="produto4">
+            <a href="../paginas/banho_shampoo/banho_shampoo_produtos/produto2.html"><img src=" https://staticpetz.stoom.com.br/fotos/1621366553662.jpg " alt="suplemento">
+            <p>Shampoo Banho de Carinho Petz para Cães 500mlL</p>
+            <h3>R$ 14,99</h3></a>
+        </div>
+        <div id="produto5">
+            <a href="../paginas/Cachorro_Coleira/Cachorro_coleiras_produtos/produto3.html"><img src="https://staticpetz.stoom.com.br/fotos/1588705757089.jpg" alt="suplemento">
+            <p>Coleira com Guia Toh para Cães Black</p>
+            <h3>R$ 45,99</h3></a>
+        </div>
+        <div id="produto6">
+            <a href="../paginas/medicamentos_antibiotivos/Medicamento_Anbioticos_Produtos/Produto2.html"><img src=" https://www.petlove.com.br/images/products/191213/large/Rilexine-para-C%C3%A3es-e-Gatos-14-Comprimidos---Palat%C3%A1vel-75.jpg?1556419006" alt="suplemento">
+            <p>Antibiótico Virbac Rilexine Palatável para Cães<br> e Gatos de 14 Comprimidos - 75 mg</p>
+            <h3>R$ 57,00 </h3></a>
+        </div>
+        <hr>
+    </div>
+    
+    <!--------------------------------------------------------->
+    <!--------------------------------------------------------->
+    <!--------------------------------------------------------->
+
+
+
+
+
+    <!-- LISTA MENU DE BAIXO -->
+    <div id="baixo">
+    <div id="menub">
+        <ul>
+            <li><a href="../paginas/__mais buscados/mais_buscados.html">MAIS BUSCADOS</a>
+            <ul id="ul">
+                <li><a href="../paginas/Cachorro_Antipulgas/Cachorro_antipulgas_produtos/produto3.html">Defendog Spray Virbac 250m</a></li>
+                <li><a href="../paginas/Cachorro_Camas/Cachorro_Camas_Produtos/Produto1.html">Cama Lisa Petz Cinza</a></li>
+                <li><a href="../paginas/Cachorro_Ração/cachorro_racao_produtos/produto1.html">Ração Pedigree Nutri Essencial para Cães Adultos - 15kg</a></li>
+                <li><a href="../paginas/Cachorro_Coleira/Cachorro_coleiras_produtos/produto3.html">Coleira com Guia Toh para Cães Black</a></li>
+                <li><a href="../paginas/medicamentos_antiemeticos/Medicamentos_Antiemticos_Produtos/Produto2.html">Antiemético Avert Vonau Vet para Cães - 30 ml</a></li>
+                <li><a href="../paginas/Cachorros_Brinquedos/Cachorro_Brinquedos_produtos/Produto2.html">Brinquedo para Cães Bola de Borracha Maciça Mamona Furacão</a></li>
+                
+            </ul>
+            </li>
+
+
+            <li>CONTEÚDO
+            <ul>
+                <li><a href="../paginas/_cachorro/cachorros.html">Cachorro</a></li>
+                <li><a href="../paginas/_gato/gatos.html">Gato</a></li>
+                <li><a href="../paginas/_banho/k.html">Banho & Tosa</a></li>
+                <li><a href="../paginas/_passaros/i.html">Pássaros</a></li>
+                <li><a href="../paginas/_medicamentos/M.html">Medicamentos</a></li>
+            </ul>
+            </li>
+
+            <li>INSTITUIÇÃO
+                <ul>
+                    <li><a href="../paginas/instituições/terreno baldio/terreno baldio.html">A empresa</a></li>
+                    <li><a href="../paginas/instituições/empresa/localizaçao.html">Localização</a></li>
+                </ul>
+            </li>
+
+            <li>REDES SOCIAIS
+                <ul>
+                    <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=558198845-7189" target="_blank">WhatsApp</a></li>
+                    <li><a href="https://t.me/joinchat/8-dQsrNYzuU4YTVh" target="_blank">Telegram</a></li>
+                    <li><a href="https://www.instagram.com/natupet_shop/" target="_blank">Instagram</a></li>
+                    <li><a href="https://twitter.com/NatuPetshop" target="_blank">Twitter</a></li>
+                    </ul>
+            </li>
+
+            <li><a href="../paginas/__equipe/equipe.html">EQUIPE</a>
+                <ul>
+                <li>Hugo Fernando</li>
+                <li>Luiz Fernando</li>
+                <li>Manoel Igor</li>
+                <li>Natã Cataldi</li>
+                <li>Raylane Luizi</li>
+                <li>Rebeca Vitoria</li>
+                <li>Victor Gabriel</li>
+            </ul>
+        </ul>
+    </div>
+    </div>
+    <!--------------------------------------------------------->
+    <!--------------------------------------------------------->
+    <!--------------------------------------------------------->
+
+
+
+
+    
+</body>
+</html>
