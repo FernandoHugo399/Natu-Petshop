@@ -73,6 +73,12 @@ html,body{
     text-decoration: none;
     color: #0B87BA;
     font-size: 25px;
+    transition: 0.3s;
+}
+
+.menu-desktop ul li a:hover{
+    color: #14698d;
+    text-decoration: underline;
 }
 
 .menu-mobile{
@@ -111,6 +117,11 @@ html,body{
     text-decoration: none;
     color: #0B87BA;
     font-size: 25px;
+}
+
+.menu-mobile ul li a:hover{
+    color: #14698d;
+    text-decoration: underline;
 }
 /**********/
 
