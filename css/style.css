@@ -133,7 +133,7 @@ html,body{
 
 #imgs{
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: 1s ease-in-out;
     transform: translateX(0);
 
 }
@@ -206,7 +206,10 @@ html,body{
 }
 
 @media screen and (max-width:768px){
-    
+    #imgs img{
+        
+        height: 50vw;
+    }
 }
 
 
