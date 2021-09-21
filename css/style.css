@@ -145,6 +145,58 @@ html,body{
 /**********/
 
 
+/* contato */
+
+.contato{
+    margin-top: 20px;
+}
+
+.center span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #167fac;
+    font-style: italic;
+}
+
+.center ul {
+    display: inline-block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -15px;
+    
+    
+}
+.center ul li {
+    float: right;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.center ul li:first-child {
+    margin-left: 0px;
+}
+.center ul li img:first-child {
+    float: right;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    /* filter: greyscale(1.0); */
+}
+.center ul li:hover img:first-child {
+    margin: -50px 0 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/**********/
+
+
 /* Media queries */
 @media screen and (max-width:1200px){
     .flex-logo-menu{
