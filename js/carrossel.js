@@ -1,2 +1,16 @@
-const imgs = document.getElementById('imgs');
-const img = document.getElementsByClassName('img');
+const imgs = document.getElementById("img");
+const img = document.querySelectorAll("#img img");
+
+let idx = 0;
+
+function carrossel(){
+    idx++;
+
+    if(idx > img.length -1){
+        idx = 0;
+    }
+
+    imgs.style.transform = `translateX(${-idx * 99}%)`;
+}
+
+setInterval(carrossel, 8000);
