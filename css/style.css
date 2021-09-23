@@ -219,7 +219,6 @@ html,body{
     display: flex;
     padding: 0 2%;
     flex-wrap: wrap;
-    border-bottom: 2px solid #14698d;
 }
 
 .destaque .flex-itens .item{
