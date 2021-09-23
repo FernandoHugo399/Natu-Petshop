@@ -195,6 +195,22 @@ html,body{
 
 /**********/
 
+/* destaque */
+.destaque{
+    margin-top: 50px;
+}
+
+.list-destaque{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #14698d;
+    border-bottom: 2px solid #14698d;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0B87BA;
+}
+/**********/
 
 /* Media queries */
 @media screen and (max-width:1200px){
