@@ -219,6 +219,7 @@ html,body{
     display: flex;
     padding: 0 2%;
     flex-wrap: wrap;
+    border-bottom: 2px solid #14698d;
 }
 
 .destaque .flex-itens .item{
@@ -228,7 +229,6 @@ html,body{
     flex-direction: column;
     color: #0B87BA;
     text-decoration: none;
-    transition: 0.1s;
 }
 
 .destaque .flex-itens .item:hover{
