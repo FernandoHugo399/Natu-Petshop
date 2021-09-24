@@ -3,7 +3,7 @@ const img = document.querySelectorAll("#img img");
 
 let idx = 0;
 
-function carrossel(){
+setInterval(function carrossel(){
     idx++;
 
     if(idx > img.length -1){
@@ -11,6 +11,4 @@ function carrossel(){
     }
 
     imgs.style.transform = `translateX(${-idx * 99}%)`;
-}
-
-setInterval(carrossel, 10000);
+}, 10000);
