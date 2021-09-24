@@ -1,10 +1,10 @@
 var menu = document.querySelectorAll('.menu-mobile')[0];
 var moba = document.querySelectorAll('.menu-mobile ul')[0];
 menu.addEventListener('click', ()=>{
-    if(moba.style.display == 'block'){
-        moba.style.display = 'none';
+    if(moba.classList.contains('mobah')){
+        moba.classList.remove('mobah');
     } else {
-        moba.style.display = 'block';
+        moba.classList.add('mobah');
     }
     
 })
