@@ -57,7 +57,6 @@ html,body{
     justify-content: space-between;
     align-items: center; 
     padding: 10px 1%;
-    border-bottom: 2px solid #ccc;
 }
 
 .logo{
@@ -85,13 +84,46 @@ html,body{
 }
 
 .menu-desktop ul li a:hover{
-    color: #14698d;
     text-decoration: underline;
 }
 
-
+.mobah{
+    height: 260px !important;
+}
 
 .menu-mobile{
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(253, 252, 252);
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+    display: none;
+    margin: 0;
+}
+
+.menu-mobile ul{
+    width: 100%;
+    padding-left: 0;
+}
+
+.menu-mobile ul li{
+    padding: 7px 0 ;
+    list-style-type: none;
+}
+
+.menu-mobile ul li a{
+    text-decoration: none;
+    color: #0B87BA;
+    font-size: 20px;
+}
+
+.menu-mobile ul li a:hover{
+    text-decoration: underline;
+}
+
+.icon-menu{
     display: none;
     margin-top: 10px;
     width: 40px;
@@ -102,44 +134,6 @@ html,body{
     cursor: pointer;
 }
 
-.menu-mobile ul {
-    height: 0;
-    overflow: hidden;
-    z-index: 999;
-    position: absolute;
-    width: 100%;
-    background-color: rgb(253, 252, 252);
-    top: 124px;
-    padding: 0;
-    text-align: center;
-    left: 0;
-    cursor: auto;
-    transition: 0.6s ease-in-out;
-    
-}
-
-.mobah{
-
-    height: 325px !important;
-    transition: 1s !important;
-    border-bottom: 2px solid #ccc !important;
-} 
-
-.menu-mobile ul li {
-    list-style-type: none;
-    padding: 10px 0;
-}
-
-.menu-mobile ul li a {
-    text-decoration: none;
-    color: #0B87BA;
-    font-size: 25px;
-}
-
-.menu-mobile ul li a:hover{
-    color: #14698d;
-    text-decoration: underline;
-}
 /**********/
 
 
@@ -277,7 +271,7 @@ html,body{
 /**********/
 
 /* Media queries */
-@media screen and (max-width:1200px){
+@media screen and (max-width:1220px){
     .flex-logo-menu{
         background-color: rgb(253, 252, 252);
         display: flex;
@@ -295,8 +289,12 @@ html,body{
     }
 
 
-    .menu-mobile{
+    .icon-menu{
         display: inline-block;
+    }
+
+    .menu-mobile{
+        display: block;
     }
 }
 
@@ -328,10 +326,6 @@ html,body{
     .gray{
         width: 100%;
         text-align: center;   
-    }
-
-    .menu-mobile ul{
-        top: 175px;
     }
 
     .destaque .flex-itens .item{
@@ -368,10 +362,6 @@ html,body{
     .gray{
         font-size: 20px;
     }
-
-    .menu-mobile ul{
-        top: 165px;
-    }
 }
 
 @media screen and (max-width:500px){
@@ -398,10 +388,6 @@ html,body{
 }
 
 @media screen and (max-width:430px){
-    .menu-mobile ul{
-        top: 190px;
-    }
-
     #img img{
         height: 60vw;
     }
