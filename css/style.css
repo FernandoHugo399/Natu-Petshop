@@ -99,7 +99,7 @@ html,body{
     background-image: url(../images/icon_menu.png);
     background-repeat: no-repeat;
     background-size: contain;
-
+    cursor: pointer;
     
 }
 
@@ -109,12 +109,18 @@ html,body{
     position: absolute;
     width: 100%;
     background-color: rgb(253, 252, 252);
-    top: 125px;
+    top: 135px;
     padding: 0;
     text-align: center;
     left: 0;
     border-bottom: 2px solid #ccc;
+    cursor: auto;
 }
+
+/* .mobah{
+    height: 500px !important;
+    display: block;
+} */
 
 .menu-mobile ul li {
     list-style-type: none;
@@ -322,7 +328,7 @@ html,body{
     }
 
     .menu-mobile ul{
-        top: 175px;
+        top: 195px;
     }
 
     .destaque .flex-itens .item{
@@ -361,7 +367,7 @@ html,body{
     }
 
     .menu-mobile ul{
-        top: 165px;
+        top: 185px;
     }
 }
 
