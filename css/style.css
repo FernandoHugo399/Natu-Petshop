@@ -2,7 +2,7 @@
 
 *{
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -177,7 +177,7 @@ html,body{
 .contato .center ul{
     display: inline-block;
     position: absolute;
-    margin-left: -15px;
+    margin-left: 10px;
 }
 
 .contato .center ul li{
@@ -365,11 +365,14 @@ html,body{
 }
 
 @media screen and (max-width:500px){
+    .contato{
+        margin-bottom: 80px;
+    }
     .contato .center{
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: center;    
     }
     .contato .center span{
         display: inline-block;
@@ -379,7 +382,6 @@ html,body{
        margin-top: 30px;
         
     }
-
     .destaque{
         margin-top: 50px;
     }
