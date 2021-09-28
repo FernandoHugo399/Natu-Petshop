@@ -231,11 +231,7 @@ html,body{
     flex-direction: column;
     color: #0B87BA;
     text-decoration: none;
-    justify-content: flex-start;
-    text-align: center;
 }
-
-
 
 .destaque .flex-itens .item:hover{
     color: #FE8C0F;
