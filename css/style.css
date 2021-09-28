@@ -225,13 +225,17 @@ html,body{
 }
 
 .destaque .flex-itens .item{
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     display: flex;
     align-items: center;
     flex-direction: column;
     color: #0B87BA;
     text-decoration: none;
+    justify-content: flex-start;
+    text-align: center;
 }
+
+
 
 .destaque .flex-itens .item:hover{
     color: #FE8C0F;
@@ -329,7 +333,7 @@ html,body{
     }
 
     .destaque .flex-itens .item{
-        width: calc(100% / 2);
+        width: 40%;
     }
 
     #list1{
