@@ -59,13 +59,14 @@ html,body{
     padding: 10px 1%;
 }
 
-.logo{
+.content-logo{
     color: #FE8C0F;
     font-size: 38px;
+    text-decoration: none;
     
 }
 
-.logo::after{
+.content-logo::after{
     content: 'PetShop';
     color: #0B87BA;
 }
