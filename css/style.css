@@ -271,6 +271,34 @@ html,body{
 
 /**********/
 
+
+/* Menu baixo */
+.menu-baixo{
+    background-color: #0584BF;
+    padding: 0 2%;
+    margin-top: 20px;
+}
+
+.catalogo{
+    display: flex;
+    text-align: center;
+}
+
+.catalogo-item{
+    width: calc(100% / 5);
+}
+
+.catalogo-item h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+
+/**********/
+
+
 /* Media queries */
 @media screen and (max-width:1220px){
     .flex-logo-menu{
