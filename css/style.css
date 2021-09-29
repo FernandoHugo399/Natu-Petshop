@@ -276,7 +276,7 @@ html,body{
 .menu-baixo{
     background-color: #0584BF;
     padding: 0 2%;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 .catalogo{
@@ -291,11 +291,27 @@ html,body{
 .catalogo-item h2{
     color: white;
     text-transform: uppercase;
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
     padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+.catalogo-item ul li{
+    list-style-type: none;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.catalogo-item ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.catalogo-item ul li a:hover{
+    color: #FE8C0F;
+}
 /**********/
 
 
