@@ -282,6 +282,9 @@ html,body{
 .catalogo{
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
 }
 
 .catalogo-item{
@@ -296,6 +299,10 @@ html,body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.catalogo-item a{
+    display: none;    
+}
+
 .catalogo-item ul li{
     list-style-type: none;
     font-size: 13px;
@@ -304,6 +311,7 @@ html,body{
 }
 
 .catalogo-item ul li a{
+    display: block;
     text-decoration: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -395,6 +403,39 @@ html,body{
     #img img{
         
         height: 45vw;
+    }
+
+   
+
+    .catalogo-item{
+        width: 100%;
+        
+
+    }
+
+    .catalogo-item ul{
+        display: none;
+    }
+    
+    .catalogo-item h2{
+        display: none;
+        
+        
+    }
+    
+    .catalogo-item a{
+        display: block;    
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin: 20px 0 10px 0;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .catalogo-item a:hover{
+        color: #FE8C0F;
     }
 }
 
