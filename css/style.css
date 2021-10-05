@@ -25,6 +25,10 @@ html,body{
     width: 100%;
 }
 
+
+
+/* PAGINA PRINCIPAL */
+
 /* Header */
 
 .flex-chamada{
@@ -493,6 +497,68 @@ html,body{
 @media screen and (max-width:430px){
     #img img{
         height: 60vw;
+    }
+}
+
+/**********/
+
+
+
+
+
+
+
+
+
+
+/* PAGINA DE FOTOGRAFIAS */
+
+
+/* banner-fo */
+.banner-fo{
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    height: 25vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #ccc;
+}
+
+.banner-fo .logo-fo{
+    text-transform: uppercase;
+    color: #FE8C0F;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.banner-fo .logo-fo::after{
+    content: ' Fotografias';
+    color: #0B87BA;
+}
+
+/**********/
+
+
+/* media queries */
+
+@media screen and (max-width:1220px){
+    .banner-fo{
+        border-top: 0;
+        height: 30vw;
+    }
+}
+
+@media screen and (max-width:768px){
+    .banner-fo{
+        
+        height: 40vw;
+    }
+
+    .banner-fo .logo-fo{
+        font-size: 36px;
     }
 }
 
