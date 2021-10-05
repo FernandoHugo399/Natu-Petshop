@@ -545,19 +545,27 @@ html,body{
 /* chamada-fo */
 
 .chamada-fo .container{
-    max-width: 800px;
+    max-width: 850px;
 }
 
 .chamada-fo .cont-fo{
     color: #229DC3;
     text-align: justify;
+    padding-bottom: 10px;
 }
 
-.chamada-fo .cont-fo p{
+.chamada-fo .cont-fo p, .chamada-fo .cont-fo pre{
     font-family: 'Times New Roman', Times, serif;
     line-height: 25px;
     font-weight: lighter;
     letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+.chamada-fo .cont-fo h2{
+    margin: 20px 0;
+    color: #0281B3;
+    padding-left: 10px;
 }
 
 /**********/
