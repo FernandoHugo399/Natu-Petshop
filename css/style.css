@@ -553,7 +553,7 @@ html,body{
     padding: 10px 2%;
 }
 
-.chamada-fo .cont-fo p, .chamada-fo .cont-fo pre{
+.chamada-fo .cont-fo p{
     font-family: 'Times New Roman', Times, serif;
     line-height: 25px;
     font-weight: lighter;
@@ -566,7 +566,16 @@ html,body{
 .chamada-fo .cont-fo h2{
     margin: 20px 0;
     color: #0281B3;
-    padding-left: 10px;
+    padding-left: 1%;
+}
+
+.chamada-fo .cont-fo .para{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin: 30px 0;
+    max-width: 500px;
 }
 
 /**********/
