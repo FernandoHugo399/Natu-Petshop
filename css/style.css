@@ -542,6 +542,27 @@ html,body{
 /**********/
 
 
+/* chamada-fo */
+
+.chamada-fo .container{
+    max-width: 800px;
+}
+
+.chamada-fo .cont-fo{
+    color: #229DC3;
+    text-align: justify;
+}
+
+.chamada-fo .cont-fo p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+/**********/
+
+
 /* media queries */
 
 @media screen and (max-width:1220px){
