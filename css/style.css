@@ -319,7 +319,7 @@ html,body{
 }
 
 .catalogo-item ul li a{
-    display: block;
+    display: inline;
     text-decoration: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
