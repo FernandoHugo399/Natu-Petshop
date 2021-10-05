@@ -602,6 +602,7 @@ html,body{
 .galeria-fe .galeria-resp img{
     width: calc(100% / 3);
     border: 2px solid white;
+    height: 25vw;
 }
 /**********/
 
@@ -612,6 +613,10 @@ html,body{
     .banner-fo{
         border-top: 0;
         height: 30vw;
+    }
+
+    .galeria-fe .galeria-resp img{
+        height: 22vw;
     }
 }
 
@@ -630,6 +635,10 @@ html,body{
 
     .galeria-fe .galeria-resp img:nth-of-type(2n + 10){
         display: none;
+    }
+
+    .galeria-fe .galeria-resp img{
+        height: 35vw;
     }
 }
 
