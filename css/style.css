@@ -617,12 +617,19 @@ html,body{
 
 @media screen and (max-width:768px){
     .banner-fo{
-        
         height: 40vw;
     }
 
     .banner-fo .logo-fo{
         font-size: 36px;
+    }
+
+    .galeria-fe .galeria-resp img{
+        width: calc(100% / 2);
+    }
+
+    .galeria-fe .galeria-resp img:nth-of-type(2n + 10){
+        display: none;
     }
 }
 
