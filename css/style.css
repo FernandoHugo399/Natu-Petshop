@@ -97,7 +97,7 @@ html,body{
 }
 
 .menu-mobile{
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #0b6e9c;
     width: 100%;
     text-align: center;
     background-color: rgb(253, 252, 252);
@@ -528,7 +528,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid #ccc;
+    border-top: 2px solid #0b6e9c;
 }
 
 .banner-fo .logo-fo{
@@ -657,6 +657,12 @@ html,body{
 
 /* PAGINA EMPRESA */
 
+/* conteudo */
+
+.conteudo{
+    border-top: 2px solid #0b6e9c;
+    border-bottom: 2px solid #0b6e9c;
+}
 
 .conteudo .center{
     max-width: 900px;
@@ -675,3 +681,16 @@ html,body{
     padding: 10px 2%;
     text-align: justify;
 }
+
+/**********/
+
+
+/* media queries */
+
+@media screen and (max-width:1220px){
+    .conteudo{
+        border-top: none;
+    }
+}
+
+/**********/
