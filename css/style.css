@@ -661,3 +661,17 @@ html,body{
 .conteudo .center{
     max-width: 900px;
 }
+
+.conteudo .center h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 4%;
+    color: #0584BF;
+}
+
+.conteudo .center p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: #0281B3;
+    padding: 10px 2%;
+    text-align: justify;
+}
