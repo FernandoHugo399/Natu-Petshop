@@ -718,6 +718,23 @@ html,body{
     font-weight: bold;
 }
 
+.maps{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map:first-of-type{
+    display: none;
+}
+
+.map{
+    width: 25vw;
+    height: 25vw;
+}
+
+.map a{
+    display: none;
+}
 /**********/
 
 
