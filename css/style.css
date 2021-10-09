@@ -725,13 +725,15 @@ html,body{
 }
 
 .map{
+    padding: 20px;
+    margin: 0;
     width: 30vw;
     height: 30vw;
-    margin:  20px;
 }
 
-.map a{
-    display: none;
+.map h2{
+    text-align: center;
+    font-size: 18px;
 }
 /**********/
 
