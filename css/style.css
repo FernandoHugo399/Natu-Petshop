@@ -720,16 +720,14 @@ html,body{
 
 .maps{
     display: flex;
-    flex-wrap: wrap;
-}
-
-.map:first-of-type{
-    display: none;
+    justify-content: center;
+    width: 100%;
 }
 
 .map{
-    width: 25vw;
-    height: 25vw;
+    width: 30vw;
+    height: 30vw;
+    margin:  20px;
 }
 
 .map a{
