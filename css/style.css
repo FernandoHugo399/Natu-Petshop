@@ -763,7 +763,6 @@ html,body{
 .map p{
     color: #0B87BA;
     font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
     padding: 8px;
     letter-spacing: 1px;
 }
@@ -806,6 +805,10 @@ html,body{
     .map{
         width: 300px;
         height: 300px;
+    }
+
+    .map{
+        margin-bottom: 170px;
     }
     
 }
