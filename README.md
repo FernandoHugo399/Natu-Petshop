@@ -1,2 +1,2 @@
 # Natu-Petshop
-Petshop project
+The project is still ongoing!
