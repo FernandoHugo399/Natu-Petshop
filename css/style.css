@@ -826,10 +826,14 @@ html,body{
 
 /* section-produtos */
 
+.section-produto{
+    padding: 50px 0;
+}
+
 .section-produto .compra-produto{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    
 }
 
 .section-produto .img-produto{
@@ -890,4 +894,22 @@ html,body{
     background-color: #FB9800;
 }
 
+.desc-produto h2{
+    text-align: center;
+    color: #0B87BA;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 8px 0;
+    border-top: 2px solid #0281B3;
+    border-bottom: 2px solid #0281B3;
+}
+
+.desc-produto p{
+    padding: 30px 2%;
+    color: #0B87BA;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
 /**********/
