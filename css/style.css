@@ -845,6 +845,7 @@ html,body{
 
 .section-produto .comprar{
     width: 50%;
+    padding-right: 5%;
 }
 
 .section-produto .comprar h2{
