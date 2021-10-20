@@ -895,6 +895,7 @@ html,body{
 }
 
 .desc-produto h2{
+    margin-top: 30px;
     text-align: center;
     color: #0B87BA;
     font-weight: normal;
@@ -911,5 +912,34 @@ html,body{
     color: #0B87BA;
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
+}
+/**********/
+
+
+/* media queries */
+
+@media screen and (max-width:490px){
+    
+.section-produto .compra-produto{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.section-produto .comprar{
+    padding-right: 0;
+}
+
+.section-produto .img-produto{
+    
+    min-width: 300px;
+}
+
+.section-produto .img-produto img{
+    float: none;
+    display: block;
+}
 }
 /**********/
