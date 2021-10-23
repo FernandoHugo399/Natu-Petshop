@@ -946,6 +946,13 @@ html,body{
 }
 /**********/
 
+
+
+
+
+/* Paginas Menu-top */
+
+/* destaque */
 .destaque-p .title{
     text-align: center;
     width: 100%;
@@ -994,3 +1001,18 @@ html,body{
     margin: 5px 0 20px 0;
     font-weight: bold;
 }
+
+/**********/
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+    .destaque-p  .flex-itens .item{
+        width: calc(100% / 2);
+        
+    }
+}
+
+
+/**********/
