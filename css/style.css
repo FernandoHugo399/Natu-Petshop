@@ -943,6 +943,54 @@ html,body{
     display: block;
 }
 
-
 }
 /**********/
+
+.destaque-p .title{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #F5F5F5;
+    color: #5499B4;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.destaque-p .flex-itens{
+    display: flex;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+
+.destaque-p  .flex-itens .item{
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #0B87BA;
+    text-decoration: none;
+}
+
+.destaque-p  .flex-itens .item:hover{
+    color: #FE8C0F;
+}
+
+.destaque-p  .flex-itens .item .img img{
+    width: 100%;
+    max-width: 350px;
+    
+}
+
+.destaque-p  .flex-itens .item .nome{
+    font-size: 16px;
+    max-width: 320px;
+    padding: 0 2%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.destaque-p  .flex-itens .item .preco{
+    margin: 5px 0 20px 0;
+    font-weight: bold;
+}
