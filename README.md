@@ -1,2 +1,2 @@
 # Natu-Petshop
-O projeto ainda está em andamento
+The project is still ongoing!
