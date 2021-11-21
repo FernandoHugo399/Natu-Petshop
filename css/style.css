@@ -1016,3 +1016,80 @@ html,body{
 
 
 /**********/
+
+
+/* Página de cadastro */
+
+
+
+
+
+/* Form-cadastro */
+
+.sec-form-cadastro{
+    width: 100%;
+    background-color: #0584BF;
+    padding: 80px 2%;
+    min-height: 500px;
+}
+
+
+.form-cadastro{
+    width: 100%;
+    max-width: 1200px;
+    color: white;
+}
+.form-cadastro fieldset{
+    padding: 20px 2%;
+    text-align: center;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+.form-cadastro fieldset p{
+    display: inline-block;
+    width: 30%;
+}
+
+.form-cadastro fieldset input{
+    width: 100%;
+    padding: 5px 8px;
+    outline: 0;
+}
+
+.form-cadastro fieldset input[type=submit]{
+    margin-top: 20px;
+    font-size: 22px;
+    width: 100%;
+    padding: 5px 0;
+    max-width: 150px;
+    color: white;
+    background-color: #0e7caf;
+    border: 2px solid #0e78a8;
+    cursor: pointer;
+}
+
+.form-cadastro fieldset input[type=submit]:hover{
+    background-color: #0e78a8;
+    border: 2px solid #0e78a8;
+
+}
+/**********/
+
+
+/* media queries */
+@media screen and (max-width: 590px){
+    .form-cadastro fieldset p{
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .form-cadastro fieldset p{
+        width: 80%;
+    }
+}
+
+
+
+/**********/
